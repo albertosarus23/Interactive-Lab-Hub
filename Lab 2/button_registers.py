@@ -5,6 +5,8 @@ import busio
 # modified from https://www.digikey.com/en/maker/projects/circuitpython-basics-i2c-and-spi/9799e0554de14af3850975dfb0174ae3
 
 # Try to create an I2C device
+
+# 123
 i2c = busio.I2C(board.SCL, board.SDA)
 print("I2C ok!")
 
